@@ -1,4 +1,4 @@
-# IslandsWars documentations  
+# Islands Wars documentations  
 Here you can find all documentations for these IS projects :  
 - [API/Core](/islands/index.html?overview-summary.html)  
 - [Hub](/hub/index.html?overview-summary.html)   
@@ -27,7 +27,6 @@ after_success:
   - cd $TRAVIS_BUILD_DIR 
   # Deploy documentation only for the master branch 
   - if [ $TRAVIS_BRANCH = "master" ]; then wget -O - https://raw.githubusercontent.com/islands-wars/documentations/master/deployDocumentation.sh | sh ; fi
-```  
-
-3. Add github token **(only admin)**   
+```    
+3. Add github token **(only admin)** :   
 **An admin** have to configure the build script to add **the github token** wich allow Travis to push the documentation.
