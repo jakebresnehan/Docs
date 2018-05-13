@@ -1,6 +1,7 @@
 sudo: false
 
 language: node_js
+    - "node"
 
 before_install:
     - npm i -g gitbook-cli
