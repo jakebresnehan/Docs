@@ -1,0 +1,20 @@
+sudo: false
+
+language: node_js
+
+before_install:
+    - npm i -g gitbook-cli
+
+install:
+    - gitbook build ./ --log=debug --debug
+
+deploy:
+    provider: pages
+    skip-cleanup: true
+    github-token: $GH_REPO_TOKEN
+    keep-history: false
+    local-dir: _book
+    committer-from-gh: true
+    on:
+        branch:
+            - master
