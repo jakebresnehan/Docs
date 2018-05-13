@@ -1,7 +1,7 @@
 sudo: false
 
 language: node_js
-    - "node"
+    - node
 
 before_install:
     - npm i -g npm@latest
