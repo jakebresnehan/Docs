@@ -6,7 +6,7 @@
 
 TODO: Correct mistakes
 
-TODO: Finish the documentation
+TODO: Finish the documentation (using the branch `docs/hydre`)
 
 ## Definitions
 
