@@ -14,6 +14,8 @@ TODO: Finish the documentation
 
 An user can be either a client or an anonymous user.
 
+#### A client
+
 ```json
 {
     "type": "client",
@@ -21,6 +23,8 @@ An user can be either a client or an anonymous user.
     "roles": ["ADMIN"]
 }
 ```
+
+#### An anonymous user (not connected)
 
 ```json
 {
