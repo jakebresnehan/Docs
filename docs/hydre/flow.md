@@ -10,7 +10,7 @@ TODO: Finish the documentation
 
 ## Definitions
 
-### User
+### User {#User}
 
 An user can be either a client or an anonymous user.
 
@@ -100,3 +100,4 @@ The `error.code` key is in the big book of Islands errors!
     },
     "type": "Error"
 }
+```
