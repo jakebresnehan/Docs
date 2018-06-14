@@ -1,0 +1,24 @@
+{
+  "name": "@islandswars/docs",
+  "version": "1.0.0",
+  "description": "Islands wars documentation builder",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "docz": "^0.2.4"
+  },
+  "scripts": {
+      "dev": "docz dev",
+      "build": "docz build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islands-wars/documentations.git"
+  },
+  "author": "LightDiscord <arnaud@lightdiscord.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/islands-wars/documentations/issues"
+  },
+  "homepage": "https://github.com/islands-wars/documentations#readme"
+}
