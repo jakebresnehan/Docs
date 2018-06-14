@@ -38,3 +38,22 @@ Un client qui n'a pas fourni d'information permettant de l'identifier, type not�
     "id": "8bcd1262-f6e5-4ae6-bd14-f00a928cda34"
 }
 ```
+
+## Request
+
+Une requête formée grâce au schéma d'un RPC avec RabbitMQ.
+* `executor` est l'utilisateur qui a fait la requête (voir [User](/hydre/models#user)).
+* `data` les données demandées par le service demandé.
+
+```json
+{
+    "executor": {
+        "type": "anonymous",
+        "id": "8bcd1262-f6e5-4ae6-bd14-f00a928cda34"
+    },
+    "data": {
+        "a": 5,
+        "b": 10
+    }
+}
+```
