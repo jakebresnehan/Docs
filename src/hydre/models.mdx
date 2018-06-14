@@ -5,3 +5,25 @@ menu: Hydre
 ---
 
 # Models
+
+Définition des structures commune pour les modules du projet.
+
+## User
+
+Un utilisateur peut être sous deux formes (pour le moment),
+* Celle d'une personne connecté: `regular`
+* Celle d'une personne anonyme (non connecté): `anonymous`
+
+Tous les types d'utilisateurs sont accompagnés dans champ `id`.
+
+### Regular User
+
+C'est un client connecté, type noté `regular`.
+
+```json
+{
+    "type": "regular",
+    "id": "a7591b95-bd26-4580-a194-c0116d743ffb",
+    "roles": ["ADMIN"]
+}
+```
