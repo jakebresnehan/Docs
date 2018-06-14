@@ -11,6 +11,9 @@ before_script:
 script:
     - npm run build
 
+before_deploy:
+    - cp CNAME .docz/dist
+
 deploy:
     provider: pages
     skip-cleanup: true
