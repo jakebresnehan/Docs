@@ -7,10 +7,7 @@
 .history
 
 ### DocZ ###
-/.docz/*
-!/.docz/dist
-/.docz/dist/*
-!/.docz/dist/_redirects
+.docz
 
 ### Node ###
 # Logs

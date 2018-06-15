@@ -9,7 +9,7 @@
   },
   "scripts": {
       "dev": "docz dev",
-      "build": "docz build"
+      "build": "docz build && cp _redirects .docz/dist"
   },
   "repository": {
     "type": "git",
