@@ -5,25 +5,11 @@ language: node_js
 node_js:
     - node
 
-before_script:
+before_install:
     - npm i -g npm@latest
 
 script:
     - npm run build
-
-before_deploy:
-    - cp CNAME .docz/dist
-
-deploy:
-    provider: pages
-    skip-cleanup: true
-    github-token: $GH_REPO_TOKEN
-    keep-history: false
-    local-dir: .docz/dist
-    committer-from-gh: true
-    on:
-        branch:
-            - master
 
 notifications:
     email:
