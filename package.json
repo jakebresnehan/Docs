@@ -8,8 +8,8 @@
     "docz": "^0.2.4"
   },
   "scripts": {
-      "dev": "docz dev",
-      "build": "docz build && cp _redirects .docz/dist"
+    "dev": "docz dev",
+    "build": "docz build"
   },
   "repository": {
     "type": "git",
