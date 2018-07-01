@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "docz": "^0.2.4"
+    "docz": "^0.3.3"
   },
   "scripts": {
     "dev": "docz dev",
